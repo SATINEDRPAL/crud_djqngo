@@ -1,0 +1,23 @@
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE OF CRUD OPERATION</title>
+    <link rel="stylesheet" href="{% static 'app/css/bootstrap.css' %}">
+    
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center alert alert-danger">Function Based View ModelForm Crud Project </h1>
+        {% block content %} {% endblock content %}
+    </div>
+    <script src="{% static 'app/js/jquery.js' %}"></script>
+    <script src="{% static 'app/js/bootstrap.js' %}"></script>
+    <script src="{% static 'app/js/popper.js' %}"></script>
+
+
+</body>
+</html>
